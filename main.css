@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  background-color: #92bc1c;
+  padding: 16px 0;
+  color: #fff;
+  display: flex;
+  border-bottom: 16px solid #225d0e;
+  justify-content: center;
+  text-transform: uppercase;
+  font-style: italic;
+}
+header button{
+  margin-left: 16px;
+}
+form{
+  background-color: #20aa49;
+  padding: 24px 0;
+  text-align: center;
+  display:none;
+}
+form h2{
+  margin-bottom: 16px;
+}
+input ,
+button{
+  padding: 8px;
+}
+button{
+  background-color: #0422ba;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+ul li{  
+  text-align: center;
+  max-height: 280px;
+}
+ul li p{
+
+  width: 100%;
+}
+.riscado{
+    text-decoration: line-through;
+}
+
